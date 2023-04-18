@@ -1,89 +1,5 @@
-@extends('frontend/layouts.template')
+@extends('berita/layouts.templateberita')
 @section('content')
-
-<!-- ======= Hero Section ======= -->
-<section id="" class="hero d-flex align-items-center">
-
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-6 d-flex flex-column justify-content-center">
-                <h1 data-aos="fade-up">Menjawab Panggilan Selama Lebih dari 100 Tahun</h1>
-                <h2 data-aos="fade-up" data-aos-delay="400">Selamat datang di situs web kami, tempat dimana keselamatan
-                    dan keamanan menjadi prioritas utama. Kami adalah perusahaan
-                    pemadam kebakaran yang berkomitmen untuk memberikan
-                    layanan cepat, efektif, dan efisien dalam menangani kebakaran</h2>
-                <div data-aos="fade-up" data-aos-delay="600">
-                    <div class="text-center text-lg-start">
-                        <a href="#about"
-                            class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center">
-                            <span>Unduh Aplikasi</span>
-                            <i class="bi bi-arrow-down-circle"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-6 hero-img" data-aos="zoom-out" data-aos-delay="200">
-                <img src="{{ asset('frontend/assets/img/homegambar.png')}}" class="img-fluid" alt="">
-            </div>
-        </div>
-    </div>
-
-</section><!-- End Hero -->
-<section id="hero" class="counts">
-    <div class="container" data-aos="fade-up">
-
-        <div class="row gy-4">
-
-            <div class="col-lg-3 col-md-6">
-                <div class="count-box">
-                    <i class="bi bi-car-front-fill"></i>
-                    <div>
-                        <span data-purecounter-start="0" data-purecounter-end="10" data-purecounter-duration="1"
-                            class="purecounter"></span>
-                        <p>Unit Mobil</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6">
-                <div class="count-box">
-                    <i class="bi bi-people" i></i>
-                    <div>
-                        <span data-purecounter-start="30" data-purecounter-end="15" data-purecounter-duration="1"
-                            class="purecounter"></span>
-                        <p>Personil</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-3 col-md-6">
-                <div class="count-box">
-                    <i class="bi bi-journal-richtext" ></i>
-                    <div>
-                        <span data-purecounter-start="0" data-purecounter-end="20" data-purecounter-duration="1"
-                            class="purecounter"></span>
-                        <p>Laporan Selesai</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-3 col-md-6">
-                <div class="count-box">
-                    <i class="bi bi-buildings"></i>
-                    <div>
-                        <span data-purecounter-start="0" data-purecounter-end="4" data-purecounter-duration="1"
-                            class="purecounter"></span>
-                        <p>Kantor Damkar</p>
-                    </div>
-                </div>
-            </div>
-
-
-
-        </div>
-
-    </div>
-</section><!-- End Counts Section -->
-
 
 <main id="main">
     <!-- ======= About Section ======= -->
@@ -112,8 +28,7 @@
                             mengelola laporan yang masuk, memberikan informasi lengkap.
                         </p>
                         <div class="text-center text-lg-start">
-                            <a href="#"
-                               >
+                            <a href="#">
                                 <span>Baca selengkapnya</span>
                                 <i class="bi bi-arrow-right"></i>
                             </a>
@@ -147,8 +62,7 @@
                             mengelola laporan yang masuk, memberikan informasi lengkap.
                         </p>
                         <div class="text-center text-lg-start">
-                            <a href="#"
-                                >
+                            <a href="#">
                                 <span>Baca selengkapnya</span>
                                 <i class="bi bi-arrow-right"></i>
                             </a>
@@ -327,29 +241,13 @@
                 </div>
 
             </div>
-            
+
 
         </div>
 
 
     </section><!-- End Recent Blog Posts Section -->
-    <section id="maps" class="features">
-        <!-- Feature Icons -->
-        <div class="row feature-icons" data-aos="fade-up">
-            <h3>Lokasi Kantor</h3>
 
-            
-
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1785.959770844521!2d111.88662212053033!3d-7.589568221003955!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e784ae413ea7907%3A0xf813251cb8a3e740!2sKantor%20UPTD%20PEMADAM%20KEBAKARAN!5e0!3m2!1sen!2sid!4v1680766611819!5m2!1sen!2sid" width="1000" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-
-         
-
-        </div><!-- End Feature Icons -->
-
-        </div>
-
-    </section><!-- End Features Section -->
-    
 
 
 </main><!-- End #main -->

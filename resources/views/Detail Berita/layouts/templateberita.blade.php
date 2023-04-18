@@ -39,7 +39,7 @@
 </head>
 
 <body>
-@include('frontend/layouts.navbar')
+@include('berita/layouts.navbarberita')
 @yield('content')
 
     <!-- ======= Footer ======= -->
@@ -76,19 +76,22 @@
                     <div class="col-lg-2 col-6 footer-links">
                         <h4>Media Sosial</h4>
                         <ul>
-                            <li><a href="#">Whatsapp</a> <i class="bi bi-reply"></i></li>
-                            <li><a href="#">Instagram</a> <i class="bi bi-chevron-right"></i> </li>
-                            <li><a href="#">Facebook</a> <i class="bi bi-chevron-right"></i></li>
+                            <li><i class="bi bi-chevron-right"></i> <a href="#">Whatsapp</a></li>
+                            <li><i class="bi bi-chevron-right"></i> <a href="#">Instagram</a></li>
+                            <li><i class="bi bi-chevron-right"></i> <a href="#">Facebook</a></li>
                         </ul>
                     </div>
 
-                    <div class="col-lg-2 col-6 footer-links">
+                    <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
                         <h4>Hubungi Kami</h4>
-                        <ul>
-                            <li><i class="bi bi-whatsapp"></i> <a href="#">085156023639</a></li>
-                            <li><i class="bi bi-telephone"></i> <a href="#">085156023639</a></li>
-                            <li><i class="bi bi-envelope"></i> <a href="#">thedamkar@gmail.com</a></li>
-                        </ul>
+                        <p>
+                            A108 Adam Street <br>
+                            New York, NY 535022<br>
+                            United States <br><br>
+                            <strong>Phone:</strong> +1 5589 55488 55<br>
+                            <strong>Email:</strong> info@example.com<br>
+                        </p>
+
                     </div>
 
                 </div>
